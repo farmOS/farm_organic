@@ -10,7 +10,8 @@
 function farm_organic_farm_flags() {
   return array(
     'organic' => t('Organic'),
-    'notorganic' => t('Not Organic'),
+    'notorganic' => t('Not Organic'), 
+    'transitionalorganic' => t('Transitional Organic'), 
   );
 }
 
