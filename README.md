@@ -1,7 +1,7 @@
 FARM ORGANIC
 ============
 
-Provides flags for marking records as "Organic" and "Not Organic" in farmOS.
+Provides flags for marking records as "Organic", "Not Organic" and "Transitional Organic" in farmOS.
 
 This module is an add-on for the [farmOS](http://drupal.org/project/farm)
 distribution.
