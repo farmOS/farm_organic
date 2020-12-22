@@ -11,6 +11,7 @@ function farm_organic_farm_flags() {
   return array(
     'organic' => t('Organic'),
     'notorganic' => t('Not Organic'),
+    'transitionalorganic' => t('Transitional Organic'),
   );
 }
 
@@ -22,5 +23,10 @@ function farm_organic_farm_flags_classes_alter($flag, &$classes) {
   // If the flag is 'organic', add the Bootstrap 'success' button class.
   if ($flag == 'organic') {
     $classes[] = 'btn-success';
+  }
+
+  // If the flag is 'transitionalorganic', add the Bootstrap 'info' button class.
+  if ($flag == 'transitionalorganic') {
+    $classes[] = 'btn-info';
   }
 }
