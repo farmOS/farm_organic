@@ -1,0 +1,7 @@
+name: Organic
+description: Provides flags for marking records as "Organic", "Not Organic" and "Transitional Organic" in farmOS.
+type: module
+package: farmOS Contrib
+core_version_requirement: ^9
+dependencies:
+  - farm:farm_flag
