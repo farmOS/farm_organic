@@ -1,0 +1,18 @@
+{
+  "name": "drupal/farm_organic",
+  "description": "Provides flags for marking records as 'Organic', 'Not Organic' and 'Transitional Organic' in farmOS.",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/farm_organic",
+  "license": "GPL-2.0-or-later",
+  "support": {
+      "docs": "https://farmOS.org/guide",
+      "forum": "https://farmOS.discourse.group",
+      "chat": "https://matrix.to/#/#farmOS:matrix.org"
+  },
+  "authors": [
+      {
+          "name": "Michael Stenta",
+          "email": "mike@farmier.com"
+      }
+  ]
+}
