@@ -6,3 +6,4 @@ dependencies:
       - farm_organic
 id: organic
 label: Organic
+entity_types: null
