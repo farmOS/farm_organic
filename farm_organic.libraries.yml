@@ -1,0 +1,4 @@
+flag:
+  css:
+    theme:
+      css/flag.css: { }

@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Styling for farm_organic flags.
+ */
+
+.flag.flag--organic {
+  background-color: #058260;
+  border-color: #058260;
+}
+.flag.flag--notorganic {
+  background-color: #6A4A3A;
+  border-color: #6A4A3A;
+}
+.flag.flag--transitionalorganic {
+  background-color: #795695;
+  border-color: #795695;
+}

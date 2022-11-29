@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * The farm_organic module.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function farm_organic_preprocess_field__flag(array &$variables) {
+  $variables['#attached']['library'][] = 'farm_organic/flag';
+}
